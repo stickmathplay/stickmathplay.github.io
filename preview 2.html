@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StickMathPlay Studio</title>
+
+<style>
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:48px;
+    margin:0;
+    background: linear-gradient(90deg,#00f5ff,#00ff99);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+header p{
+    font-size:18px;
+    opacity:0.8;
+}
+
+nav{
+    text-align:center;
+    padding:15px;
+    background: rgba(0,0,0,0.3);
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00ffcc;
+}
+
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.servicios{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius:15px;
+    padding:25px;
+    width:280px;
+    transition:0.3s;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    border:1px solid #00ffcc;
+}
+
+.card h3{
+    margin-top:0;
+    color:#00ffcc;
+}
+
+.precio{
+    font-weight:bold;
+    margin-top:10px;
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    background: linear-gradient(90deg,#00f5ff,#00ff99);
+    color:black;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.4);
+    font-size:14px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>StickMathPlay Studio</h1>
+    <p>Edición Creativa • Contenido Viral • Marca Digital</p>
+</header>
+
+<nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#sobre">Sobre Nosotros</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="servicios">
+    <h2>Servicios Profesionales</h2>
+    <div class="servicios">
+
+        <div class="card">
+            <h3>Edición Básica</h3>
+            <p>Cortes dinámicos, música y subtítulos simples.</p>
+            <div class="precio">$250 UYU</div>
+        </div>
+
+        <div class="card">
+            <h3>Edición Viral</h3>
+            <p>Efectos modernos, ritmo rápido y estilo profesional.</p>
+            <div class="precio">$500 UYU</div>
+        </div>
+
+        <div class="card">
+            <h3>Pack Creator</h3>
+            <p>5 videos optimizados para TikTok/Reels.</p>
+            <div class="precio">$1.200 UYU</div>
+        </div>
+
+    </div>
+</section>
+
+<section id="sobre">
+    <h2>Sobre Nosotros</h2>
+    <p>
+        En StickMathPlay Studio creamos contenido visual impactante.
+        Nuestro objetivo es ayudar a creadores y marcas a crecer con
+        videos dinámicos, modernos y estratégicos.
+    </p>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Listo para hacer crecer tu contenido?</p>
+    <a class="btn" href="mailto:stickmathplay@gmail.com">Enviar Email</a>
+    <p style="margin-top:15px;">stickmathplay@gmail.com</p>
+</section>
+
+<footer>
+    © 2026 StickMathPlay Studio — Todos los derechos reservados
+</footer>
+
+</body>
+</html>
